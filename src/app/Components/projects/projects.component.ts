@@ -84,5 +84,13 @@ export class ProjectsComponent {
       skills: ['./assets/images/html.png', './assets/images/css.png'],
       projectLink: 'https://galleria-ruby.vercel.app/',
     },
+    {
+      image: './assets/images/Screenshot (151).png',
+      projectName: 'kasper template has some arts',
+      projectDet:
+        'Kasper is a multi-purpose HTML template for agencies and startups. It comes with a very clean and creative design, fully responsive, and ready to be customized to your needs.',
+      skills: ['./assets/images/html.png', './assets/images/css.png'],
+      projectLink: 'https://kasper-two-alpha.vercel.app/',
+    },
   ];
 }
