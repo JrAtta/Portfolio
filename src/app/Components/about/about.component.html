@@ -1,0 +1,88 @@
+
+<div class=" parent " id="about" >
+<div class="  container-lg vh-100 ">
+  <article class="  justify-content-between  gap-4   ">
+    <!-- height (h-50) >> is a problem -->
+    <section class=" section1  w-60 hover-content  position-relative radius  overflow-hidden">
+      <img src="assets/images/b1.svg" alt="" class="  w-100 object-fit-">
+      <div class="content text-white position-absolute font   fw-bold lh-sm   ">
+        I prioritize client collaboration, fostering open communication
+      </div>
+    </section>
+    <section class="section2 w-35    h-100 ">
+      <div class="  border sec1  father  w-100   radius  d-flex justify-content-center align-items-center">
+        <div class="ps-1  text-white  font1 fw-bold lh-sm d-flex justify-content-center align-items-center text-center   ">
+          I'm very flexible with time zone communications
+        </div>
+      </div>
+
+      <div class="  border  sec2 w-100  radius   ">
+
+        <div class=" father radius    d-flex align-items-center justify-content-between  h-100 overflow-hidden position-relative ">
+          <div class="  text-white   lh-sm p-4 text-center w-75 ">
+            <p class="">I constantly try to improve</p>
+            <h1 class="font1 fw-bold">My tech stack</h1>
+          </div>
+
+          <div class=" ps-4   h-100 overflow-hidden  d-flex  justify-content-center gap-2 align-items-center " style="font-size: 12px; font-weight: 500;" >
+            <div class="rectangle " >
+              <ng-container *ngFor="let skill of skills" >
+              <span class="   text-center rounded fw-bolder " [class.bg-secondary]="skill === ''" style="background-color:#0A0D26; color: #393B50;" >{{skill}}</span>
+              </ng-container>
+
+
+            </div>
+            <div class="rectangle1"  >
+              <ng-container *ngFor="let skill of skills1" >
+              <span class="   text-center rounded fw-bolder " [class.bg-secondary]="skill === ''" style="background-color: #0A0D26; color: #393B50;">{{skill}}</span>
+              </ng-container>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </article>
+  <!-- end first sub -->
+</div>
+<div class="containerr">
+
+  <div class="container-lg   last-sub   overflow-hidden">
+    <div class="left-part h-100  ">
+      <div class=" h-100 top  radius ">
+        <div class=" h-100  sec1  father  radius  d-flex justify-content-between align-items-center  overflow-hidden "
+      style="background-image: url('/assets/images/Sc.png'); background-position:left;
+      ">
+        <div class="ps-1  text-white  font1 fw-bold lh-sm  text-center w-100 " >
+          Tech enthusiast with a passion for development.
+        </div>
+      </div>
+      </div>
+      <div class="h-100 bottom  radius  ">
+        <div class=" father radius  h-100 w-100  overflow-hidden position-relative d-flex flex-column align-items-center justify-content-center  mail-div">
+          <div class="content ">
+          </div>
+            <div class="  text-white font1 fw-bold  lh-sm p-4 text-center  w-100 ">
+              Do you want to start a project together?
+            </div>
+            <button class="magic-button " (click)="copyEmail()">
+              <i class="fa-solid fa-copy pe-3"></i>
+              {{copy}}
+            </button>
+        </div>
+      </div>
+    </div>
+    <div class="right-part radius   hover-content  position-relative radius  overflow-hidden border">
+      <img src="assets/images/d.jpg" alt="" class="  w-100 ">
+      <div class="content text-white position-absolute font   fw-bold lh-sm   ">
+       <p class=" fs-6 fw-semibold"> The Inside Scoop</p>
+        Currently building a  Educational Platform by Angular
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

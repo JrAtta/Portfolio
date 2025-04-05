@@ -1,0 +1,19 @@
+
+  .page-layout{
+    background: #000319;
+
+  }
+.scrollToTop
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: var(--main-color);
+  background: var(--third-color);
+  z-index: 1000;
+
+  &:active,:focus{
+    color: var(--main-color);
+    background: var(--third-color);
+  }
+}

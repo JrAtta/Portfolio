@@ -1,0 +1,18 @@
+import { ApplicationConfig, NgModule } from '@angular/core';
+import { provideRouter, RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './Components/home/home.component';
+import { AboutComponent } from './Components/about/about.component';
+import { provideClientHydration } from '@angular/platform-browser';
+
+const routes: Routes = [
+
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes , )], // {scrollPositionRestoration : 'enabled'}
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+export const appConfig: ApplicationConfig = {
+  providers: [provideRouter(routes), provideClientHydration()]
+};

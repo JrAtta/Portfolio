@@ -1,0 +1,37 @@
+<div class="container pb-4 mt-5">
+
+  <div class="card-header title fw-bold text-center mb-3 ">
+    My <span> work experience</span>
+  </div>
+
+    <main class="">
+      <div class="row g-xl-5 g-4 ">
+        @for (item of workExperianceList; track $index) {
+        <div class="col-lg-6 col-12   ">
+          <div class="position-relative overflow-hidden "  style="padding: 1.5px; border-radius: 20px;" >
+          <div class="card flex-column flex-lg-row justify-content-center align-items-lg-center  gap-3 h-100">
+
+            <div class="image">
+              <img [src]="item.image" alt="item.image">
+            </div>
+
+            <div class="content ">
+              <div class="card-title fw-bold  text-capitalize">
+                {{item.title}}
+              </div>
+              <div class="card-des fw-semibold  ">
+                <p> {{item.des}}</p>
+              </div>
+            </div>
+
+
+          </div>
+          <div class="light-div" [style.animationDelay]="($index + .5) +'s' ">
+          </div>
+          </div>
+        </div>
+      }
+      </div>
+    </main>
+
+  </div>

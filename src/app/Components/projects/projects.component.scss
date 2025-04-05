@@ -1,0 +1,123 @@
+.parent{
+  background: var(--main-color);
+  .container-lg{
+
+    .title{
+      font-size: 3.5rem;
+      letter-spacing: 1.2px;
+      span{
+        color: var(--third-color);
+      }
+      @media (max-width:1000px) {
+        font-size: 2.9rem;
+
+      }
+      @media (max-width:768px) {
+        font-size: 2.5rem;
+
+      }
+      @media (max-width:450px) {
+        font-size: 2rem;
+
+      }
+    }
+
+    .main{
+
+      margin-top: 5rem;
+      .card-parent{
+
+        .card{
+          transform: rotateX(0deg) scale(1);
+
+      .image{
+        background-image: url("/assets/images/download.png");
+        background-position: center;
+        width: 100%;
+        // height: 350px;
+        @media (max-width:440px) {
+          height: 290px;
+
+        }
+        img{
+          border-radius: 1.2rem;
+          transform: skew(-5deg , 5deg);
+          translate: 0 -10px ;
+          scale: .9;
+          @media (max-width:340px){
+          scale: 1.1;
+          translate: 0 20px ;
+          }
+
+
+        }
+
+      }
+
+     @media (max-width:530px) {
+      .card-body {
+        h4{
+          font-size: 1rem;
+          letter-spacing: 1px;
+        }
+        p{
+          font-size: .8rem;
+        }
+      }
+      .skills{
+        img{
+          scale: .8;
+
+        }
+      }
+      .live-preview{
+       scale: .8;
+      }
+     }
+
+     &:hover{
+       transform:rotateX(45deg) scale(.8);
+       transition: transform .5s linear;
+      }
+
+
+      .card-body{
+
+
+        .project-des {
+          // @media (max-width: 400px) {
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* تحديد الحد الأقصى لعدد السطور */
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            position: relative;
+
+
+        }
+      }
+    }
+    }
+
+  }
+
+
+
+
+
+
+    @media (max-width:1000px) {
+      transform: translateY(-5rem);
+
+    }
+    @media (max-width:768px) {
+      transform: translateY(0rem);
+
+    }
+    @media (max-width:450px) {
+      transform: translateY(0rem);
+
+    }
+  }
+}
+

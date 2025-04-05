@@ -1,0 +1,22 @@
+.container
+{
+  // background-image: url('/assets/images/footer-grid.svg');
+  // background-position: center;
+  // transform: translateY(-70px);
+
+
+  a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+
+  }
+
+  li{
+    cursor: pointer;
+    transition: transform .3s linear;
+    &:hover{
+      transform: translateY(-6px);
+    }
+  }
+}
