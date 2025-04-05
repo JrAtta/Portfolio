@@ -20,7 +20,7 @@ export class ProjectsComponent {
         './assets/images/ts.png',
         './assets/images/angular.png',
       ],
-      projectLink: 'https://legendary-travesseiro-49f48a.netlify.app/',
+      projectLink: 'https://legendary-travesseiro-49f48a.netlify.apps/',
     },
     {
       image: './assets/images/movie.png',
@@ -32,7 +32,7 @@ export class ProjectsComponent {
         './assets/images/css.png',
         './assets/images/js.png',
       ],
-      projectLink: 'https://legendary-travesseiro-49f48a.netlify.app/',
+      projectLink: 'https://movie-app-iota-azure.vercel.app/',
     },
     {
       image: './assets/images/yellowMoon.png',
@@ -40,7 +40,7 @@ export class ProjectsComponent {
       projectDet:
       "Welcome to Yellow Side of the Moon, where we do some creative work!!! We do some art, we develop some apps.",
       skills: ['./assets/images/html.png', './assets/images/css.png'],
-      projectLink: 'https://ornate-fenglisu-946259.netlify.app/',
+      projectLink: 'https://yellow-moon-sage.vercel.app/',
     },
     {
       image: './assets/images/AI.png',
@@ -52,7 +52,7 @@ export class ProjectsComponent {
         './assets/images/css.png',
         './assets/images/Bootstrap.png',
       ],
-      projectLink: 'https://lively-gnome-a7c2db.netlify.app/',
+      projectLink: 'https://neura-seven.vercel.app/',
     },
     {
       image: './assets/images/ecomerce.png',
@@ -66,7 +66,7 @@ export class ProjectsComponent {
         './assets/images/Bootstrap.png',
         './assets/images/angular.png',
       ],
-      projectLink: 'https://e-commercee-c48m.vercel.app/',
+      projectLink: 'https://exclusive-ecommerce-tau.vercel.app/',
     },
     {
       image: './assets/images/audio.png',
@@ -74,7 +74,7 @@ export class ProjectsComponent {
       projectDet:
         'bringing you the best audio gear, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products.',
       skills: ['./assets/images/html.png', './assets/images/css.png'],
-      projectLink: 'https://cute-pavlova-2ee050.netlify.app/',
+      projectLink: 'https://audiophile-sooty-three.vercel.app/',
     },
     {
       image: './assets/images/galleria.png',
@@ -82,7 +82,7 @@ export class ProjectsComponent {
       projectDet:
         'A very wonderful gallery that reflects the beauty of design and simplicity and is also responsive to all devices, includes the best and most beautiful amazing paintings in history by the best painters.',
       skills: ['./assets/images/html.png', './assets/images/css.png'],
-      projectLink: 'https://brilliant-semifreddo-5b4b0d.netlify.app/',
+      projectLink: 'https://galleria-ruby.vercel.app/',
     },
   ];
 }
