@@ -20,7 +20,7 @@ export class ProjectsComponent {
         './assets/images/ts.png',
         './assets/images/angular.png',
       ],
-      projectLink: 'https://legendary-travesseiro-49f48a.netlify.apps/',
+      projectLink: 'https://heka-store-e-commerce-git-main-jrattas-projects.vercel.app/',
     },
     {
       image: './assets/images/movie.png',
