@@ -8,11 +8,11 @@
       <div class="row g-xl-5 g-4 ">
         @for (item of workExperianceList; track $index) {
         <div class="col-lg-6 col-12   ">
-          <div class="position-relative overflow-hidden "  style="padding: 1.5px; border-radius: 20px;" >
+          <div class=" parent position-relative overflow-hidden "  >
           <div class="card flex-column flex-lg-row justify-content-center align-items-lg-center  gap-3 h-100">
 
             <div class="image">
-              <img [src]="item.image" alt="item.image">
+              <img loading="lazy" [src]="item.image" alt="item.image">
             </div>
 
             <div class="content ">

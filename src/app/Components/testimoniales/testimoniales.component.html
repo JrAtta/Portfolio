@@ -17,11 +17,11 @@
             <div class="d-flex align-items-center gap-3 owner">
 
               <div class="owner-image">
-                <img [src]="item.image" class="w-100" alt="item.image" >
+                <img loading="lazy" [src]="item.image" class="w-100" alt="item.image">
               </div>
               <div class="owner-content  fw-semibold text-capitalize d-felx flex-column gap-3">
                 <div class="owner-name">
-                 {{item.name}}
+                  {{item.name}}
                 </div>
                 <div class="owner-title text-secondary small ">
                   {{item.jobTitle}}
@@ -32,13 +32,9 @@
 
         </div>
       </ng-template>
-    }
+      }
     </owl-carousel-o>
 
 
   </div>
 </div>
-
-
-
-

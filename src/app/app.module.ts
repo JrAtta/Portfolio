@@ -9,7 +9,6 @@ import { ProjectsComponent } from './Components/projects/projects.component';
 import { TestimonialesComponent } from './Components/testimoniales/testimoniales.component';
 import { RouterModule,  } from '@angular/router';
 import { CarouselModule } from 'ngx-owl-carousel-o';
-import { ɵBrowserAnimationBuilder } from '@angular/animations';
 import { WorkExperianceComponent } from './Components/work-experiance/work-experiance.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { FooterComponent } from './Components/footer/footer.component';
@@ -31,7 +30,7 @@ import { FooterComponent } from './Components/footer/footer.component';
     AppRoutingModule,
     RouterModule,
     CarouselModule
-    
+
 
   ],
   providers: [

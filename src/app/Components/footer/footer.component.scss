@@ -12,11 +12,15 @@
 
   }
 
-  li{
-    cursor: pointer;
-    transition: transform .3s linear;
-    &:hover{
-      transform: translateY(-6px);
+  ul{
+    list-style-type: none;
+    li{
+      padding: 7px 10px; border:1px solid hsl(0deg 0% 100% / 12.5%); background: rgb(17 25 40 / 75%);
+      cursor: pointer;
+      transition: transform .3s linear;
+      &:hover{
+        transform: translateY(-6px);
+      }
     }
   }
 }

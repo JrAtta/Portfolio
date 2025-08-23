@@ -1,7 +1,5 @@
 import { ApplicationConfig, NgModule } from '@angular/core';
-import { provideRouter, RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './Components/home/home.component';
-import { AboutComponent } from './Components/about/about.component';
+import { provideRouter, RouterModule, Routes, withHashLocation, withInMemoryScrolling } from '@angular/router';
 import { provideClientHydration } from '@angular/platform-browser';
 
 const routes: Routes = [
@@ -14,5 +12,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes), provideClientHydration()]
+  providers: [provideRouter(routes, withHashLocation(), withInMemoryScrolling({scrollPositionRestoration: 'top'}) ), provideClientHydration()]
 };

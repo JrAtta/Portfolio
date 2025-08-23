@@ -12,6 +12,8 @@
   .title{
     font-size: 3.5rem;
     letter-spacing: 1.2px;
+    text-wrap: balance;
+
     span{
       color: var(--third-color);
     }
@@ -28,4 +30,9 @@
 
     }
   }
+ .card-body{
+  p{
+     color: rgb(190 193 221);
+  }
+ }
 }

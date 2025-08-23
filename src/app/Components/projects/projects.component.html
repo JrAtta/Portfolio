@@ -1,41 +1,43 @@
-<div class=" parent  " >
-  <div class="container-lg  " >
+<div class=" parent  ">
+  <div class="container-lg  ">
     <div id="projects" class="title text-white d-flex   justify-content-center align-items-center text-center  fw-bold">
-     <p> A small selection of <span class=" ps-2"> recent projects</span></p>
+      <p> A small selection of <span class=" ps-2"> recent projects</span></p>
     </div>
     <div class="main h-100  p-md-4 p-3 ">
       <!-- projects card here -->
-       <div class="row g-5 d-flex justify-content-center ">
+      <div class="row g-5 d-flex justify-content-center ">
 
         @for(project of projects ; track $index){
 
         <div class="col-lg-6 col-md-9 col-sm-12 card-parent my-0 ">
-          <div class=" card bg-transparent  p-md-4  pointer position-relative " style="height: 80%; border-radius: 1.2rem; border: 1px solid hsl(0deg 0% 100% / 10%);">
-            <div class="image shadow radius overflow-hidden " >
-              <img [src]="project.image" alt="{{project.projectName}}" class=" card-img " [style.transform]=" $even ? '' : 'skew(5deg , -5deg)' ">
+          <div class=" card bg-transparent  p-md-4  pointer position-relative ">
+            <div class="image shadow radius overflow-hidden ">
+              <img loading="lazy" [src]="project.image" alt="{{project.projectName}}" class=" card-img "
+                [style.transform]=" $even ? '' : 'skew(5deg , -5deg)' ">
             </div>
-            <div class="card-body mt-3 "  >
+            <div class="card-body mt-3 ">
               <h4 class="fw-bold  text-capitalize text-white w-100 lh-base ">{{project.projectName}}</h4>
               <p class="text-secondary pt-2 fw-semibold  project-des">{{project.projectDet}}</p>
             </div>
-            <div class="detailes    d-flex justify-content-between align-items-center flex-wrap " >
-                <div class="skills d-flex justify-content-center gap-2 p-3 flex-wrap ">
-                   @for ( skill of project.skills ; track $index){
-                    <img [src]="skill" alt="{{skill}}" class=""  height="32">
-                  }
-                </div>
+            <div class="detailes    d-flex justify-content-between align-items-center flex-wrap ">
+              <div class="skills d-flex justify-content-center gap-2 p-3 flex-wrap ">
+                @for ( skill of project.skills ; track $index){
+                <img loading="lazy" [src]="skill" alt="{{skill}}" class="" height="32">
+                }
+              </div>
 
               <div class="live-preview d-flex justify-content-center align-items-center gap-3 pb-2 ">
-                <a [href]="project.projectLink" class="m-0 p-0 fs-5 pb-md-0 fw-semibold text-decoration-none" style="color: var(--third-color); "  > Check Live Site </a>
-                <img src="./assets/images/arrow.svg" alt="">
+                <a [href]="project.projectLink" class="m-0 p-0 fs-5 pb-md-0 fw-semibold text-decoration-none"> Check
+                  Live Site </a>
+                <img loading="lazy" src="./assets/images/arrow.svg" alt="">
               </div>
             </div>
 
           </div>
         </div>
-      }
+        }
 
-       </div>
+      </div>
     </div>
   </div>
 </div>

@@ -10,7 +10,7 @@ export class ProjectsService {
 
    projects: Iproject[] = [
     {
-      image: './assets/images/Screenshot (150).png',
+      image: './assets/images/heka store.png',
       projectName: 'Heka store E-commerce ',
       projectDet:
         'Developed a responsive e-commerce platform  allowing users to browse products, manage shopping carts, and complete secure online payments. Implemented product filtering, search,user authentication, and an admin dashboard for managing inventory and orders.',
@@ -18,8 +18,9 @@ export class ProjectsService {
         './assets/images/html.png',
         './assets/images/sass.png',
         './assets/images/Bootstrap.png',
-        './assets/images/ts.png',
+        './assets/images/ts.svg',
         './assets/images/angular.png',
+
       ],
       projectLink:
         'https://heka-store-e-commerce-git-main-jrattas-projects.vercel.app/',
@@ -53,7 +54,7 @@ export class ProjectsService {
     },
 
     {
-      image: './assets/images/ERP2.png',
+      image: './assets/images/ERP.png',
       projectName: 'ERP Analytics Dashboard ',
       projectDet:
         'A dynamic web application for visualizing complex business data through interactive charts and real-time analytics, streamlining decision-making processes.',
@@ -61,7 +62,7 @@ export class ProjectsService {
         './assets/images/html.png',
         './assets/images/sass.png',
         './assets/images/Bootstrap.png',
-        './assets/images/ts.png',
+        './assets/images/ts.svg',
         './assets/images/angular.png',
         './assets/images/plotly.png',
       ],
@@ -76,7 +77,7 @@ export class ProjectsService {
       skills: [
         './assets/images/html.png',
         './assets/images/sass.png',
-        './assets/images/ts.png',
+        './assets/images/ts.svg',
         './assets/images/Bootstrap.png',
         './assets/images/angular.png',
       ],
@@ -119,42 +120,6 @@ export class ProjectsService {
       skills: ['./assets/images/html.png', './assets/images/css.png'],
       projectLink: 'https://yellow-moon-sage.vercel.app/',
     },
-    // {
-    //   image: './assets/images/AI.png',
-    //   projectName: 'simple clone _ neura',
-    //   projectDet:
-    //     'Start Your AI Go Journey With Us with Advanced Machine Learning Techniques AI like Artifacia Sensitivo AI Artificial Intelligence ;  is a branch of computer science that focuses on the development of intelligent machines',
-    //   skills: [
-    //     './assets/images/html.png',
-    //     './assets/images/css.png',
-    //     './assets/images/Bootstrap.png',
-    //   ],
-    //   projectLink: 'https://neura-seven.vercel.app/',
-    // },
 
-    // {
-    //   image: './assets/images/audio.png',
-    //   projectName: 'Responsive audiophile site ',
-    //   projectDet:
-    //     'bringing you the best audio gear, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products.',
-    //   skills: ['./assets/images/html.png', './assets/images/css.png'],
-    //   projectLink: 'https://audiophile-sooty-three.vercel.app/',
-    // },
-    // {
-    //   image: './assets/images/galleria.png',
-    //   projectName: 'awesome gallery for best paintings',
-    //   projectDet:
-    //     'A very wonderful gallery that reflects the beauty of design and simplicity and is also responsive to all devices, includes the best and most beautiful amazing paintings in history by the best painters.',
-    //   skills: ['./assets/images/html.png', './assets/images/css.png'],
-    //   projectLink: 'https://galleria-ruby.vercel.app/',
-    // },
-    // {
-    //   image: './assets/images/Screenshot (151).png',
-    //   projectName: 'kasper template has some arts',
-    //   projectDet:
-    //     'Kasper is a multi-purpose HTML template for agencies and startups. It comes with a very clean and creative design, fully responsive, and ready to be customized to your needs.',
-    //   skills: ['./assets/images/html.png', './assets/images/css.png'],
-    //   projectLink: 'https://kasper-two-alpha.vercel.app/',
-    // },
   ];
 }
