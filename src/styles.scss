@@ -7,7 +7,6 @@
 #global-loader {
   position: fixed;
   inset: 0;
-  background: #111; /* لون الخلفية */
   background: var(--main-color); /* لون الخلفية */
   display: flex;
   justify-content: center;
@@ -19,10 +18,10 @@
   width: 60px;
   height: 60px;
   border: 6px solid var(--third-color);
-  border-top: 6px solid #0d6efd; /* الأزرق أو أي لون */
   border-top: 6px solid var(--second-color); /* الأزرق أو أي لون */
   border-radius: 50%;
   animation: spin 1s linear infinite;
+
 }
 
 @keyframes spin {

@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener, OnInit, viewChild, ViewChild } from '@angular/core';
+import { Component, HostListener, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,6 @@ export class AppComponent implements OnInit {
   title = 'portfolio';
   btnVisible :boolean = false;
   loaderVisible :boolean = true;
-  // @ViewChild("loader") loader! : ElementRef;
 
   ngOnInit(): void {
     setTimeout(() => {
