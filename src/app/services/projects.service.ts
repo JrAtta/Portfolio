@@ -2,13 +2,26 @@ import { Injectable } from '@angular/core';
 import { Iproject } from '../iproject';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ProjectsService {
+  constructor() {}
 
-  constructor() { }
-
-   projects: Iproject[] = [
+  projects: Iproject[] = [
+    {
+      image: './assets/images/booking-hotel.png',
+      projectName: 'Hotel Booking Platform',
+      projectDet:
+        'A modern, high-performance hotel reservation system built with Angular 20, featuring Server-Side Rendering (SSR) for enhanced SEO and faster initial load times. The application leverages lazy loading for optimal bundle size, Angular Signals for reactive state management, and OnPush change detection strategy to maximize performance. Implemented with Reactive Forms using FormBuilder for robust form handling, styled with Angular Material and Bootstrap 5 for a responsive, professional UI. Currently operates with mock data architecture, demonstrating scalable patterns ready for API integration.',
+      skills: [
+        './assets/images/html.png',
+        './assets/images/sass.png',
+        './assets/images/Bootstrap.png',
+        './assets/images/ts.svg',
+        './assets/images/angular.png',
+      ],
+      projectLink: 'https://hotel-booking-alpha-five.vercel.app/',
+    },
     {
       image: './assets/images/heka store.png',
       projectName: 'Heka store E-commerce ',
@@ -20,7 +33,6 @@ export class ProjectsService {
         './assets/images/Bootstrap.png',
         './assets/images/ts.svg',
         './assets/images/angular.png',
-
       ],
       projectLink:
         'https://heka-store-e-commerce-git-main-jrattas-projects.vercel.app/',
@@ -111,15 +123,5 @@ export class ProjectsService {
       ],
       projectLink: 'https://traffic-dashboard-six.vercel.app/',
     },
-
-    {
-      image: './assets/images/yellowMoon.png',
-      projectName: 'the yellow side of moon',
-      projectDet:
-        'Welcome to Yellow Side of the Moon, where we do some creative work!!! We do some art, we develop some apps.',
-      skills: ['./assets/images/html.png', './assets/images/css.png'],
-      projectLink: 'https://yellow-moon-sage.vercel.app/',
-    },
-
   ];
 }
